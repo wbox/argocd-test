@@ -18,10 +18,3 @@ items:
                 name: http
           path: /
           pathType: Prefix
-  status:
-    loadBalancer:
-      ingress:
-      - ip: 192.168.59.16
-kind: List
-metadata:
-  resourceVersion: ""
