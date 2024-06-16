@@ -18,3 +18,7 @@ spec:
               number: 80
         path: /
         pathType: Prefix
+status:
+  loadBalancer:
+    ingress:
+    - ip: 192.168.59.17
