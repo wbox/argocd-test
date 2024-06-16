@@ -8,12 +8,13 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: nginx.ribas.ca
+    http:
       paths:
-      - path: /
-        pathType: Prefix
-        backend:
+      - backend:
           service:
             name: nginx-svc
             port:
               number: 80
+        path: /
+        pathType: Prefix
