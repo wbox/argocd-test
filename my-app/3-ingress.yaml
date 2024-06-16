@@ -16,7 +16,7 @@ items:
               name: nginx-svc
               port:
                 name: http
-          path: /nginx
+          path: /
           pathType: Prefix
   status:
     loadBalancer:
